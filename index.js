@@ -7,3 +7,9 @@ function destructivelyAppendKitten(name) {
   return kittens;
 }
 
+function destructivelyPrependKitten(name) {
+  kittens.pop(name);
+  return kittens;
+}
+
+console.log(destructivelyPrependKitten())
