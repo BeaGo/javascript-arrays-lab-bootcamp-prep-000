@@ -7,4 +7,3 @@ function destructivelyAppendKitten(name) {
   return kittens;
 }
 
-console.log(destructivelyAppendKitten('Ralph'))
